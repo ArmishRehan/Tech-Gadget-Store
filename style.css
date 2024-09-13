@@ -117,3 +117,49 @@ button:hover{
     color: rgb(0, 119, 158);
     transition: 0.3s;
 }
+
+/* ============trending categories================== */
+
+.trending-categories {
+    background-color: black;
+    padding: 100px;
+}
+
+.trending-categories .heading h1 {
+    color: white;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.trending-categories .categories {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.trending-categories .category-item {
+    text-align: center;
+    color: white;
+    
+}
+
+.trending-categories .categories img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+    background-color:rgb(73, 72, 72);
+}
+
+.trending-categories .categories img:hover{
+    width: 210px;
+    height: 210px;
+    border: 5px solid rgb(0, 119, 158);
+    transition: 0.3s;
+}
+
+.trending-categories .category-item p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
