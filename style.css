@@ -33,3 +33,41 @@
     justify-content: flex-end;
     gap: 30px;
 }
+
+/* ===============navbar================ */
+
+.navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: auto;
+    align-items: center;
+}
+
+.navbar .links {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar .links a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+}
+
+.navbar .search-cart {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .search-bar a { 
+    color: white;
+    margin-left: 10px;
+    margin-right: 5px; 
+}
+.navbar .cart a {
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
