@@ -86,7 +86,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(129, 0, 71, 0.664), rgba(0, 0, 0, 0.671)), 
+    background: linear-gradient(rgba(129, 0, 71, 0.664), rgba(28, 1, 72, 0.792)), 
     url(assets/banner.jpg); ;
     background-size: cover;
     background-position: center;
@@ -176,6 +176,7 @@ button:hover{
     color: white;
     text-align: left;
     margin-bottom: 50px;
+    margin-top: 20px;
 }
 
 .trending-products .products {
@@ -211,6 +212,7 @@ button:hover{
     color: white;
     text-align: left;
     margin-bottom: 50px;
+    margin-top: 20px;
 
 }
 
@@ -255,13 +257,15 @@ button:hover{
 .offer1 .text .was,
 .text .now {
     padding: 10px;
-    margin-top: 20px; 
+    margin-top: 15px;
+    margin-bottom: 20px; 
 }
 
 .offer2 .text .was,
 .text .now {
     padding: 10px;
-    margin-top: 20px; 
+    margin-top: 15px; 
+    margin-bottom: 20px;
 }
 
 .text .was {
