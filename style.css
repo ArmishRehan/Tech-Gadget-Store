@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: "Raleway", sans-serif;
+    
 }
 
 /* ===========topbar============== */
@@ -228,50 +229,165 @@ button:hover{
     flex-direction: row;
     background-color: rgb(73, 72, 72);
     margin: 30px;
-    padding: 20px;
     flex: 1; 
-
+    border-radius: 20px;
+    
 }
 
 .offer2 img {
-    width: 320px;
-    height: 300px; 
-    padding: 30px;
+    width: 270px;
+    height: 290px; 
+    padding: 25px;
 }
 
 .offer1 img{
-    width: 300px;
-    height: 290px;
+    width: 255px;
+    height: 270px;
     padding: 30px;
 }
 
 .text {
+    background-color:rgba(30, 30, 30, 0.882);
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding: 10px; 
+    justify-content: flex-start;
+    padding: 50px; 
     
 }
 
 .offer1 .text .was,
 .text .now {
-    padding: 10px;
+    
     margin-top: 15px;
     margin-bottom: 20px; 
 }
 
 .offer2 .text .was,
 .text .now {
-    padding: 10px;
     margin-top: 15px; 
     margin-bottom: 20px;
+
 }
 
-.text .was {
-    background-color: rgb(145, 0, 0);
+.offer button{
+    margin-top: 5px;
 }
 
-.text .now {
-    background-color: rgb(0, 72, 0);
+.was{ 
+    color: rgb(182, 1, 1);
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;   
+}
+.now{
+    color: rgb(1, 98, 1);
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+/* ============Blog posts=============== */
+
+/* Blog posts container */
+.blog-posts {
+    background-color: black;
+    padding: 15px;
+}
+
+/* Heading */
+.blog-posts .heading h1 {
+    color: white;
+    text-align: left;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+
+.blog-posts .blogs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(390px, 100px)); 
+    gap: 30px; 
+    justify-content: space-around;
+    
+    
+}
+
+
+.blog-posts .container img {
+    width: 100%; 
+    height: auto;
+   
+}
+.container{
+    border: 2px solid white;
+    box-sizing: border-box; 
+}
+
+.container .content {
+    color: white;
+    padding: 18px;
+    background-color: black;
+    box-sizing: border-box;  
+    line-height: 30px;
+}
+
+/* ============Footer============= */
+
+.footer{
+    background-color: black;
+    padding: 15px;
+}
+
+.footer .top-part{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+
+.footer .top-part a{
+    color: white;
+    font-size: 30px;
+    margin: 35px;
+    
+}
+.top-part .socials{
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 60px;
+    margin-top: 30px;
+    margin-right: 150px;
+}
+
+.bottom-part{
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    line-height: 20px;
+    color: white;
+}
+
+.bottom-part ul {
+    list-style-type: none; 
+    
+}
+
+.bottom-part li {
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    
+}
+
+.bottom-bar{
+    padding: 8px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-weight: bolder;
 }
